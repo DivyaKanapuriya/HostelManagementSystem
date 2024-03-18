@@ -14,7 +14,7 @@ import com.Service.RoomService;
 public class LandlordController {
 
 	 public static void main(String[] args) {
-
+                
 			Landlord landLord1 = new Landlord();
 			Landlord landLord2 = new Landlord();
 			Landlord landLord3 = new Landlord();
