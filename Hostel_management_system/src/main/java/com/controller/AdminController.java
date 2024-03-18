@@ -11,12 +11,13 @@ import com.Service.LandlordService;
 
 public class AdminController {
 	public static void main(String[] args) {
-	
+	//admin created
 	Admin admin = new Admin();
 	admin.setAdmin_name("admin");
 	admin.setEmail_id("admin@gmail.com");
-
+	//one admin can create many landlords
 	Landlord landlord = new Landlord();
+	
 	landlord.setName("Nitin");
 	landlord.setAddress("Indore");
 	landlord.setStatus("Not approved");
