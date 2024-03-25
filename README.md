@@ -1,6 +1,6 @@
 
 # Hostel Management System (Java, Hibernate, MySQL)
-The Hostel Management System is a Java application designed to streamline hostel management operations, facilitating efficient management of hostels and tenants. It allows landlords to list their available properties based on preferences such as location and rental options It utilizes Hibernate as an Object-Relational Mapping (ORM) tool and MySQL as the database management system. The application defines Hibernate CRUD operations and Object-Relational Mapping such as @OneToMany, @ManyToOne.
+The Hostel Management System is a Java application designed to streamline hostel management operations, facilitating efficient management of hostels and Customers. It allows Admin to approve landlords and landlords to list their available properties based on preferences such as location and rental options where Customers can get details of Hostels, Rooms, book and cancel room. It utilizes Hibernate as an Object-Relational Mapping (ORM) tool and MySQL as the database management system. The application defines Hibernate CRUD operations with all entities and Object-Relational Mapping such as @OneToMany, @ManyToOne between all entities.
 # Features
 <b>Hostel Management:</b> Maintain records of hostel residents, including personal information, room allocation, and checkIn checkOut status.<br>
 <b>Admin Role:</b> Admin can review and approve landlords who have available hostels and rooms for rent.<br>
@@ -16,8 +16,7 @@ The Hostel Management System is a Java application designed to streamline hostel
 </ul>
 
 # ER Diagram
-![HostelManagementSystemER](https://github.com/DivyaKanapuriya/HostelManagementSystem/assets/130472104/0b558521-0e00-4471-ad5a-a303149ff108)
-
+![HostelmgtsystmERdigm](https://github.com/DivyaKanapuriya/HostelManagementSystem/assets/130472104/15a005b1-49fe-4ba0-a425-2e5a88d2b8b0)
 
 # 
 
