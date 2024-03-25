@@ -11,6 +11,5 @@ public class deleteCustomer {
 		CustomerService customerService = new CustomerService();
 		customerService.delete(customer_id);
 		System.out.println("Customer deleted successfully");
-
-	}
+		}
 }
