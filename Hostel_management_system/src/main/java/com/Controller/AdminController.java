@@ -14,6 +14,8 @@ public class AdminController {
 	Admin admin = new Admin();
 	admin.setAdmin_name("admin");
 	admin.setEmail_id("admin@gmail.com");
+	admin.setLogin_id("admin@gmail.com");
+	admin.setLogin_pass("admin");
 	//one admin can create many landlords
 	Landlord landlord = new Landlord();
 	
